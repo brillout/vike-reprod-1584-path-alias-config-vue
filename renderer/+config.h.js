@@ -1,3 +1,5 @@
+import { onRenderHtml } from "#root/renderer/onRenderHtml"
+
 // Depending on the value of `config.meta.ssr`, set other config options' `env`
 // accordingly.
 // See https://vike.dev/meta#modify-existing-configurations
@@ -31,6 +33,7 @@ export default {
   // this list.
   passToClient:          [ 'pageProps', 'title', 'user', 'routeParams', 'theme' ],
   clientRouting:         true,
+  onRenderHtml,
   hydrationCanBeAborted: true,
   meta:                  {
     Head:        {
