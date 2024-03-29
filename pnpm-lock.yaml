@@ -21,8 +21,8 @@ dependencies:
     specifier: ^4.26.2
     version: 4.26.2
   vike:
-    specifier: ^0.4.150
-    version: 0.4.167(vite@5.0.7)
+    specifier: 0.4.167-commit-4996ef0
+    version: 0.4.167-commit-4996ef0(vite@5.0.7)
   vue:
     specifier: ^3.4.21
     version: 3.4.21
@@ -1137,8 +1137,8 @@ packages:
       punycode: 2.3.1
     dev: false
 
-  /vike@0.4.167(vite@5.0.7):
-    resolution: {integrity: sha512-YsEjcK0pa3GRAfO5LlOKeuUpvpQIXBVuGya8Mia22U529CgIPSZqMsYt85/OymHnEoOZxFEDO4PshbX7xC9K2A==}
+  /vike@0.4.167-commit-4996ef0(vite@5.0.7):
+    resolution: {integrity: sha512-3aWjZn8M1fMlqmLDzuICVG3ovu1KKB6chQiQMEskDbjyJNm9Za+n22OdE2lPJvoILOSpG93+cIJ120tre7Ud6w==}
     engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
